@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive grid using Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="totalcontainer">
+    <ul class="main_container">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+        <li>Help</li>
+    </ul>
+    <div class="hamburger_menu">
+        <input type="checkbox" name="" id="">
+        <div class="lines">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+        <ul class="navbar_items">
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li>Help</li>
+        </ul>
+    </div>
+    <div class="container text-center ">
+        <div class="text_1">
+            <h1>Super Cars...</h1>
+            <p>Supercars are known for their striking and exotic designs. They often feature sleek, aerodynamic shapes,
+                unique styling elements, and attention-grabbing details. These designs not only enhance their
+                performance but also make them visually stunning.</p>
+        </div>
+        <div class="row mx-auto grid_container">
+            <div class="col-12 col-sm-12 col-md-6  bg-primary">
+                <div class="row">
+                    <div class="col-12 col-sm-12  fColumn_leftDiv  bg-danger"></div>
+                    <div class="col-12 col-sm-12  fColumn_leftDiv  bg-warning"></div>
+                </div>
+            </div>
+            <div class="col   bg-primary">
+                <div class="row">
+                    <div class="col-12  sColumn_upperRow bg-info"></div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12 col-sm-6  downRightLeftdiv   bg-dark"></div>
+                            <div class="col-12 col-sm-6  downRightLeftdiv bg-success"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
